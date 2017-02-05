@@ -3,3 +3,4 @@ wtchcrft/settings.py
 wtchcrftenv
 wtchcrftenv/*
 *.pyc
+static/media/*
