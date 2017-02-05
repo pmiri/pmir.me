@@ -7,7 +7,7 @@
     <div class="post">
         <h1>{{ post.title }}</h1>
         {% if post.image %}
-            {{ post.image }}
+            <img src="{{ MEDIA_URL }}{{ post.image }}">
         {% endif %}
         <div class="content">
             {{ post.post }}
