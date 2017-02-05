@@ -2,3 +2,4 @@ wtchcrft/settings.py
 *.sock
 wtchcrftenv
 wtchcrftenv/*
+*.pyc

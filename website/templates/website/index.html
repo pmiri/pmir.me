@@ -1,0 +1,37 @@
+{% extends 'website/base.html' %}
+
+{% block title %} wtchcrft {% endblock %}
+
+{% block content %}
+
+    {% for post in posts %}
+        <div class="post">
+            <a href="{% url 'post' post.id %}">
+                <h1>{{ post.title }}</h1>
+            </a>
+            {% if post.image %}
+            <img src="{{ MEDIA_URL}}{{ post.image }}"/>
+            {% endif %}
+            <div class="content">
+                {{ post.post }}
+            </div>
+        </div>
+    {% endfor %}
+
+    <div class="pagination">
+        <span class="step-links">
+            {% if contacts.has_previous %}
+                <a href="?page={{ contacts.previous_page_number }}">previous</a>
+            {% endif %}
+
+            <span class="current">
+                Page {{ contacts.number }} of {{ contacts.paginator.num_pages }}.
+            </span>
+
+            {% if contacts.has_next %}
+                <a href="?page={{ contacts.next_page_number }}">next</a>
+            {% endif %}
+        </span>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,12 @@
+body.wtchcrft {
+    color: #eee;
+    background: black;
+}
+
+body.wtchcrft img.logo {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    opacity: 0.2;
+}
