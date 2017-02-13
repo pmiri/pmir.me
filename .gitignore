@@ -1,6 +1,4 @@
-wtchcrft/settings.py
+pmir_me/settings.py
 *.sock
-wtchcrftenv
-wtchcrftenv/*
 *.pyc
 static/media/*
