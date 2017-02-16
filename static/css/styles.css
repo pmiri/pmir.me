@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Alegreya:400,400i,700,700i|Raleway:700');
 
-body.wtchcrft {
+body.pmir {
     color: #eee;
     background: black;
-    background-image: url("/static/images/zwartevilt.png");
     background-attachment: fixed;
     font-family: 'Alegreya', serif;
 }
 
-body.wtchcrft .post {
+body.pmir .post {
     position: relative;
     max-width: 700px;
     width: 100%;
@@ -16,7 +15,7 @@ body.wtchcrft .post {
     line-height: 18px;
 }
 
-body.wtchcrft .pagination {
+body.pmir .pagination {
     display: block;
     clear: both;
     max-width: 700px;
@@ -29,12 +28,12 @@ body.wtchcrft .pagination {
     margin-top: 15px;
 }
 
-body.wtchcrft div.content.container {
+body.pmir div.content.container {
     margin-top: 50vh;
     margin-left: 25%;
 }
 
-body.wtchcrft img.logo {
+body.pmir img.logo {
     position: fixed;
     bottom: 0;
     right: 0;
@@ -42,31 +41,31 @@ body.wtchcrft img.logo {
     opacity: 0.1;
 }
 
-body.wtchcrft h1,
-body.wtchcrft h2,
-body.wtchcrft h3,
-body.wtchcrft h4 {
+body.pmir h1,
+body.pmir h2,
+body.pmir h3,
+body.pmir h4 {
     font-family: 'Raleway', sans-serif;
 }
 
-body.wtchcrft h1 {
+body.pmir h1 {
     margin-bottom: 15px;
     display: inline-block;
     padding-bottom: 5px;
 }
 
-body.wtchcrft a {
+body.pmir a {
     text-decoration: none;
     color: white;
     border-bottom: 1px dotted #333;
     transition: 300ms all;
 }
 
-body.wtchcrft a:hover {
+body.pmir a:hover {
     border-bottom: 1px solid white;
 }
 
-body.wtchcrft .post img.featured {
+body.pmir .post img.featured {
     position: absolute;
     left: -30%;
     max-width: 25%;
@@ -76,6 +75,6 @@ body.wtchcrft .post img.featured {
     transition: 300ms all;
 }
 
-body.wtchcrft .post img:hover {
+body.pmir .post img:hover {
     opacity: 1;
 }
